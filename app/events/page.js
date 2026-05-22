@@ -1,8 +1,8 @@
 "use client";
-export const dynamic = "force-dynamic"; // ✅ prevents prerender errors on Vercel
+export const dynamic = "force-dynamic"; // prevents prerender errors
 
 import { useEffect, useState } from "react";
-import EventCard from "@/components/EventCard"; // use app-router style import
+import EventCard from "@/components/EventCard";
 import { useSearchParams } from "next/navigation";
 
 export default function EventsPage() {
